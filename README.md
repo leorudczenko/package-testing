@@ -18,6 +18,12 @@ Print a given number of empty lines. Default = 1.
 
 ## Usage
 
+```python
+from helloworld_leorudczenko import spacing
+
+spacing(lines=2)
+```
+
 The `helloworld_leorudczenko` directory can be called directly. This will run the `spacing` function where `lines=3`.
 
 ## Development
