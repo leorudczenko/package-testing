@@ -34,7 +34,13 @@ The dependencies can be found in the [pyproject.toml](https://github.com/leorudc
 
 ### Package Distribution
 
-To upload a distribution of the library run:
+First, you need to build the distribution files:
+
+```bash
+python -m build
+```
+
+Then you can upload the distribution of the library to PyPI test:
 
 ```bash
 twine upload -r testpypi dist/*
