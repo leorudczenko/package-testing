@@ -1,3 +1,9 @@
 from helloworld_leorudczenko.myscript import spacing
 
-spacing(3)
+
+def main():
+    spacing(3)
+
+
+if __name__ == "__main__":
+    main()

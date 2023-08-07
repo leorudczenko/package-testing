@@ -7,3 +7,6 @@ name = "helloworld_leorudczenko"
 version = "0.0.1"
 description = "A simple library to provide terminal output spacing"
 readme = "README.md"
+
+[project.scripts]
+leorud-spacing = "helloworld_leorudczenko.__main__:main"
