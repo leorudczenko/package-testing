@@ -46,6 +46,12 @@ Then you can upload the distribution of the library to PyPI test:
 twine upload -r testpypi dist/*
 ```
 
+If you encouter the error `File already exists`, this is because you have likely an older version locally in your `dist/` directory. To work around this, run:
+
+```bash
+twine upload --skip-existing -r testpypi dist/*
+```
+
 You will then be prompted to login with your username and password. Alternatively, you can authenticate using an API token:
 
 ```bash
