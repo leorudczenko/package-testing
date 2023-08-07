@@ -4,8 +4,16 @@
 
 ## Installation
 
+Standard library installation:
+
 ```bash
 pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko
+```
+
+Development library installation:
+
+```bash
+pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[dev]
 ```
 
 [PyPI Test Package](https://test.pypi.org/project/helloworld-leorudczenko/)
