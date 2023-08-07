@@ -1,5 +1,17 @@
 # package-testing
 
+> This is a simple library to provide terminal output spacing.
+
+## Documentation
+
+### spacing
+
+Print a given number of empty lines. Default = 1.
+
+## Usage
+
+The `helloworld_leorudczenko` directory can be called directly. This will run the `spacing` function where `lines=3`.
+
 ## Helpful Links
 - [Packaging Your Python Code With pyproject.toml | Complete Code Conversation](https://www.youtube.com/watch?v=v6tALyc4C10)
 - [Official Python Packaging Documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
