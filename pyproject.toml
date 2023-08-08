@@ -1,10 +1,9 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools", "setuptools-scm[toml]"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "helloworld_leorudczenko"
-version = "0.0.2"
 description = "A simple library to provide terminal output spacing"
 readme = {file = "README.md", content-type = "text/markdown"}
 authors = [
@@ -17,6 +16,7 @@ classifiers = [
 ]
 keywords = ["test", "spacing", "text"]
 requires-python = ">=3.0"
+dynamic = ["version"]
 
 [project.urls]
 "Source Code" = "https://github.com/leorudczenko/package-testing"
@@ -27,3 +27,5 @@ dev = ["build", "twine"]
 
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
+
+[tool.setuptools_scm]
