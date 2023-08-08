@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "setuptools-git-versioning"]
+requires = ["setuptools", "setuptools_scm[toml]"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -28,5 +28,4 @@ dev = ["build", "twine"]
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
 
-[tool.setuptools-git-versioning]
-enabled = true
+[tool.setuptools_scm]
