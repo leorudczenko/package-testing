@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm[toml]"]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -28,4 +28,5 @@ dev = ["build", "twine"]
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
 
-[tool.setuptools_scm]
+[tool.setuptools.dynamic]
+version = {attr = "my_package.VERSION"}
