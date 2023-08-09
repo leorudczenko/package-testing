@@ -30,3 +30,8 @@ leorud-spacing = "helloworld_leorudczenko.__main__:main"
 
 [tool.setuptools_scm]
 # This can be empty, it's presence indicates that the version should come from git
+
+[tools.setuptools.packages.find]
+where = ["helloworld_leorudczenko"]
+include = ["extra"]
+namespaces = false
