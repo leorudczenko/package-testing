@@ -29,3 +29,4 @@ dev = ["build", "twine"]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
 
 [tool.setuptools_scm]
+# This can be empty, it's presence indicates that the version should come from git
