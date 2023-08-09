@@ -23,7 +23,7 @@ dynamic = ["version"]
 "Documentation" = "https://github.com/leorudczenko/package-testing#documentation"
 
 [project.optional-dependencies]
-dev = ["build", "twine"]
+dev = ["twine"]
 req = ["requests"]
 
 [project.scripts]
