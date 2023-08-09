@@ -25,6 +25,7 @@ dynamic = ["version"]
 [project.optional-dependencies]
 dev = ["build", "twine"]
 req = ["requests"]
+pkg = ["build", "twine"]
 
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
