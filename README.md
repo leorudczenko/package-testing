@@ -4,26 +4,18 @@
 
 ## Installation
 
+**Because this test package is using PyPI test for distribution, installation requries the `--extra-index` flag to include real up-to-date packages in dependencies.**
+
 Standard library installation:
 
 ```bash
-pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko
+pip install -i https://test.pypi.org/simple/ --extra-index https://pypi.org/simple helloworld-leorudczenko
 ```
 
 Development library installation:
 
-**This should work, however it seems that the libraries `build` and `twine` are causing issues and so it results in conflict errors.**
-
 ```bash
-pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[dev]
-```
-
-Requests library installation:
-
-**This does work with multiple versions. It uses the same format and syntax as the `dev` argument above.**
-
-```bash
-pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[req]
+pip install -i https://test.pypi.org/simple/ --extra-index https://pypi.org/simple helloworld-leorudczenko[dev]
 ```
 
 [PyPI Test Package](https://test.pypi.org/project/helloworld-leorudczenko/)
