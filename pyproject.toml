@@ -26,6 +26,7 @@ dynamic = ["version"]
 dev = ["build", "twine"]
 req = ["requests"]
 dev_n = ["twine"]
+test = ["pytest", "flake8"]
 
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
