@@ -93,3 +93,4 @@ Enter your password: ******
 - [Great Introduction to Python Packaging](https://www.youtube.com/watch?v=5KEObONUkik)
 - [Python Packaging Live Talk](https://www.youtube.com/watch?v=GIF3LaRqgXo)
 - [Good PyPI Test Demonstration](https://www.youtube.com/watch?v=JkeNVaiUq_c)
+- [Versioning with setuptools_scm](https://www.moritzkoerber.com/posts/versioning-with-setuptools_scm/)
