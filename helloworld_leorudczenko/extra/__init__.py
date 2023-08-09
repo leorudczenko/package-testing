@@ -1,0 +1,1 @@
+from helloworld_leorudczenko.extra.myscript2 import hash_spacing
