@@ -12,8 +12,18 @@ pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko
 
 Development library installation:
 
+**This should work, however it seems that the libraries `build` and `twine` are causing issues and so it results in conflict errors.**
+
 ```bash
 pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[dev]
+```
+
+Requests library installation:
+
+**This does work with multiple versions. It uses the same format and syntax as the `dev` argument above.**
+
+```bash
+pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[req]
 ```
 
 [PyPI Test Package](https://test.pypi.org/project/helloworld-leorudczenko/)
@@ -58,7 +68,11 @@ The dependencies can be found in the [pyproject.toml](https://github.com/leorudc
 
 ### Package Distribution
 
-First, you need to build the distribution files:
+First, you will need to create a new git release. You should only do this after all commits for the release have been made.
+
+**Once you have created a new release, ensure you pull the newest tag matching that release locally before building local distributions.** _This is because `setuptools_scm` uses the latest git tag versioning to update the dynamic version in the `pyproject.toml` config file during the build._
+
+Then, you need to build the distribution files:
 
 ```bash
 python -m build
