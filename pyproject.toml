@@ -23,8 +23,9 @@ dynamic = ["version"]
 "Documentation" = "https://github.com/leorudczenko/package-testing#documentation"
 
 [project.optional-dependencies]
-dev = ["twine"]
+dev = ["build", "twine"]
 req = ["requests"]
+dev_n = ["twine"]
 
 [project.scripts]
 leorud-spacing = "helloworld_leorudczenko.__main__:main"
