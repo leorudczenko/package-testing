@@ -24,7 +24,7 @@ pip install -i https://test.pypi.org/simple/ helloworld-leorudczenko[dev]
 
 Print a given number of empty lines. Default = 1.
 
-## Usage
+#### Usage
 
 Python scripting:
 
@@ -39,6 +39,16 @@ Command Line Interface:
 
 - Once the package has been installed, `leorud-spacing` will run the `spacing` function where `lines=3`.
 - The `helloworld_leorudczenko` directory can be called directly. This will run the `spacing` function where `lines=3`.
+
+### hash_spacing
+
+Print a given number of hash lines. Default = 1.
+
+```python
+from helloworld_leorudczenko.extra import hash_spacing
+
+hash_spacing(lines=2)
+```
 
 ## Development
 
