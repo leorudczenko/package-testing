@@ -102,3 +102,4 @@ Enter your password: ******
 - [Versioning with setuptools_scm](https://www.moritzkoerber.com/posts/versioning-with-setuptools_scm/)
 - [setuptools - Package Discovery](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#finding-simple-packages)
 - [pyproject.toml and the cmdclass](https://github.com/pypa/packaging-problems/issues/657)
+- [PyPI Test --extra-index](https://github.com/numpy/numpy/issues/21281)
