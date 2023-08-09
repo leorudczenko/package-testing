@@ -4,4 +4,4 @@ def hash_spacing(lines: int = 1) -> None:
     Default = 1.
     """
     for _ in range(lines):
-        print("##########")
+        print("###########")
