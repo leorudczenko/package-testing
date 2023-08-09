@@ -4,7 +4,7 @@
 
 ## Installation
 
-**Because this test package is using PyPI test for distribution, installation requries the `--extra-index` flag to include real up-to-date packages in dependencies.**
+**Because this test package is using PyPI test for distribution, installation requries the `--extra-index` flag to include real up-to-date packages in dependencies. Otherwise, pip will try to install the dependencies from test PyPI.**
 
 Standard library installation:
 
@@ -103,3 +103,4 @@ Enter your password: ******
 - [setuptools - Package Discovery](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#finding-simple-packages)
 - [pyproject.toml and the cmdclass](https://github.com/pypa/packaging-problems/issues/657)
 - [PyPI Test --extra-index](https://github.com/numpy/numpy/issues/21281)
+- [Pandas importing package functions into a module](https://github.com/pandas-dev/pandas/blob/main/pandas/testing.py)
