@@ -94,4 +94,5 @@ Enter your password: ******
 - [Python Packaging Live Talk](https://www.youtube.com/watch?v=GIF3LaRqgXo)
 - [Good PyPI Test Demonstration](https://www.youtube.com/watch?v=JkeNVaiUq_c)
 - [Versioning with setuptools_scm](https://www.moritzkoerber.com/posts/versioning-with-setuptools_scm/)
+- [setuptools - Package Discovery](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#finding-simple-packages)
 - [pyproject.toml and the cmdclass](https://github.com/pypa/packaging-problems/issues/657)
