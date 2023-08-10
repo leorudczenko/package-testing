@@ -46,6 +46,10 @@ Command Line Interface:
 
 Print a given number of hash lines. Default = 1.
 
+#### Usage
+
+Python scripting:
+
 ```python
 from helloworld_leorudczenko.extra import hash_spacing
 
