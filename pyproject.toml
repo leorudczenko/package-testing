@@ -38,6 +38,5 @@ leorud-spacing = "helloworld_leorudczenko.__main__:main"
 # Therefore, it is best to make all commits, then release git version, then pull new tag, then run build
 
 [tools.setuptools.packages.find]
-where = ["helloworld_leorudczenko"]
-include = ["extra"]
+where = ["helloworld_leorudczenko", "helloworld_leorudczenko.extra"]
 namespaces = false
