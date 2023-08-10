@@ -109,3 +109,4 @@ Enter your password: ******
 - [What is cmdclass?](https://stackoverflow.com/questions/27817190/what-does-cmdclass-do-in-pythons-setuptools)
 - [PyPI Test --extra-index](https://github.com/numpy/numpy/issues/21281)
 - [Pandas importing package functions into a module](https://github.com/pandas-dev/pandas/blob/main/pandas/testing.py)
+- [Multiple License Files](https://stackoverflow.com/questions/75634466/include-or-exclude-license-files-from-package-data-with-pyproject-toml-and-set)
