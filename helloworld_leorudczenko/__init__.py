@@ -1,6 +1,6 @@
-from pkg_resources import (
-    get_distribution,
-    DistributionNotFound,
+from importlib.metadata import (
+    PackageNotFoundError,
+    version,
 )
 
 from helloworld_leorudczenko.myscript import spacing
@@ -9,6 +9,6 @@ from helloworld_leorudczenko import testing
 
 
 try:
-    __version__ = get_distribution(__name__).version
-except DistributionNotFound:
-    pass
+    __version__ = version(__name__)
+except PackageNotFoundError:
+    __version__ = "0.0.0"
